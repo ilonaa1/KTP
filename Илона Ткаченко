@@ -1,0 +1,7 @@
+def цифра (число):
+    numberAsString = str (число)
+    firstLetter = numberAsString [0]
+    lastLetter = numberAsString [-1]
+    печать (int (firstLetter) + int (lastLetter))
+
+цифра (46132)
